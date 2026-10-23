@@ -1,0 +1,10 @@
+{
+  "contracts/tokens-store.sol": {
+    "__sources__": {
+      "contracts/tokens-store.sol": {
+        "content": "// SPDX-License-Identifier: MIT\r\npragma solidity 0.8.37;",
+        "file": "contracts/tokens-store.sol"
+      }
+    }
+  }
+}

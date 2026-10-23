@@ -1,0 +1,68 @@
+{
+	"id": "6f286fd63c3409f3a19a797270a89756",
+	"_format": "hh-sol-build-info-1",
+	"solcVersion": "0.8.37",
+	"solcLongVersion": "0.8.37+commit.f401782d",
+	"input": {
+		"language": "Solidity",
+		"sources": {
+			"contracts/tokens-store.sol": {
+				"content": "// SPDX-License-Identifier: MIT\r\npragma solidity 0.8.37;"
+			}
+		},
+		"settings": {
+			"optimizer": {
+				"enabled": false,
+				"runs": 200
+			},
+			"outputSelection": {
+				"*": {
+					"": [
+						"ast"
+					],
+					"*": [
+						"abi",
+						"metadata",
+						"devdoc",
+						"userdoc",
+						"storageLayout",
+						"evm.legacyAssembly",
+						"evm.bytecode",
+						"evm.deployedBytecode",
+						"evm.methodIdentifiers",
+						"evm.gasEstimates",
+						"evm.assembly"
+					]
+				}
+			},
+			"remappings": []
+		}
+	},
+	"output": {
+		"sources": {
+			"contracts/tokens-store.sol": {
+				"ast": {
+					"absolutePath": "contracts/tokens-store.sol",
+					"exportedSymbols": {},
+					"id": 2,
+					"license": "MIT",
+					"nodeType": "SourceUnit",
+					"nodes": [
+						{
+							"id": 1,
+							"literals": [
+								"solidity",
+								"0.8",
+								".37"
+							],
+							"nodeType": "PragmaDirective",
+							"src": "33:23:0"
+						}
+					],
+					"src": "33:23:0"
+				},
+				"id": 0
+			}
+		}
+	}
+}
